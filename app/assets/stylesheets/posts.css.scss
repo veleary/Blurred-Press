@@ -34,7 +34,7 @@ article {
     border: 2px solid darken($primary-color, 10%);
     @include border-radius(5px);
 
-    font {
+    font: {
       weight: bold;
       family: Verdana, Geneva, sans-serif;
       size: 0.8em;
@@ -42,6 +42,8 @@ article {
   }
 
   .body {
+    margin-top: 20px;
+
     p { line-height: 1.5em; }
   }
 }
