@@ -23,11 +23,13 @@
             %span Menu
 
       %section.top-bar-section
-        %ul.right
-          %li
+        %ul.right          
+          = user_content do
+            %li
             = link_to new_post_path do
               %i.icon-edit
               New post
+          
           %li.divider
           %li
             - if current_user
